@@ -1,10 +1,12 @@
-# Zaawansowany HTML i CSS - Warsztat
 
 
-
+# Strona Magdaleny Lendasz
 
 ## Wykorzystane technologie
-- HTML
+- React
 - SCSS
-- JS
-- Gulp
+- Webpack
+
+## Adres strony na GitHub Pages: 
+https://oleksiakmonika.github.io/magdalenalendasz/dist/#/
+
