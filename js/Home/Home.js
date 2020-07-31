@@ -9,8 +9,9 @@ const Home = () => {
         <div id='home'>
         <Header/>
         <div className='containerHome'>
+
             <img className="photo" src={people}/>
-        <p>Żeby wyleczyć trzeba porozmawiać</p>
+            <h2>Żeby wyleczyć trzeba porozmawiać</h2>
         </div>
         <Footer/>
     </div>
