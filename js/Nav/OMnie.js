@@ -4,8 +4,8 @@ import Footer from "../Home/Footer";
 
 const AboutMe = () => {
     return (
-        <><Header/><h1>o mnie</h1>
-            <p>Jestem psychologiem i certyfikowaną psychoterapeutką Polskiego Towarzystwa Psychoterapii
+        <div className='subsite'><Header/><h2>o mnie</h2>
+            <p className='subsiteP'>Jestem psychologiem i certyfikowaną psychoterapeutką Polskiego Towarzystwa Psychoterapii
                 Psychodynamicznej (nr certyfikatu 133). Szkołę z psychoterapii skończyłam w Krakowskim Centrum
                 Psychodynamicznym. Prowadzę psychoterapię psychodynamiczną dorosłych.
 
@@ -23,7 +23,7 @@ const AboutMe = () => {
 
                 Każdą swoją pracę poddaję stałemu doskonaleniu poprzez superwizje, zgodnie z wymaganiami Polskiego
                 Towarzystwa Psychologicznego.
-            </p><Footer/></>
+            </p><Footer/></div>
     )
 };
 export default AboutMe;
