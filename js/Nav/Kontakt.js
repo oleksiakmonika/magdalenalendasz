@@ -7,11 +7,13 @@ const Contact = () => {
         <div className='subsite'>
             <Header/>
             <h2>kontakt</h2>
-            <p className='subsiteP space'>Termin pierwszego spotkania  ustala się telefonicznie lub poprzez e-mail:</p>
-            <p className='subsiteP'>tel. 503 11 33 24</p>
-            <p className='subsiteP space '>e-mail: psycholog@magdalenalendasz.pl</p>
-            <p className='subsiteP'>Gdańsk Śródmieście (okolice Dworca Głównego)</p>
-            <p className='subsiteP space'>ul. Dyrekcyjna 6, p. nr 209 (II piętro)</p>
+            <p className='subsiteP space italic'>Termin pierwszego spotkania ustala się telefonicznie lub poprzez e-mail:</p>
+                <p className='subsiteP bold space'>tel.: 503 11
+                        33 24</p>
+            <p className='subsiteP  space'>e-mail: psycholog@magdalenalendasz.pl</p>
+
+                <span className='subsiteP bold'>Gdańsk Śródmieście</span> <span className='subsiteN'>(okolice Dworca Głównego)</span> <p> </p>
+               <p className='space'> <span className='subsiteP bold'>ul. Dyrekcyjna 6 </span><span className='subsiteN '>, p. nr 209 (II piętro)</span></p>
             <p className='subsiteP space'>Mapka: </p>
             <iframe id="inlineFrameExample" className='subsiteP'
                     title="Inline Frame Example"
