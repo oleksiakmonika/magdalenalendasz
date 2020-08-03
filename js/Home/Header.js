@@ -4,8 +4,10 @@ import {Link} from 'react-router-dom';
 const Header = () => {
     const [navOpened, setNavOpened] = useState(false);
     const [bOpened, setBOpened] = useState(false);
-    const navClassNames = navOpened ? 'navigation' : 'navigation--active';
-    const bClassNames = bOpened ? 'hamburger' : 'hamburger--active';
+    const [linksOpened, setLinksOpened] = useState(false);
+    const navClassNames = navOpened ? 'navigation--active' : 'navigation';
+    const bClassNames = bOpened ? 'hamburger--active' : 'hamburger ';
+    const linksClassNames =linksOpened ? 'navigation' : 'navigation--active';
     return (
         <div className='header'>
             <h1>Magdalena Lendasz</h1>
@@ -31,14 +33,15 @@ const Header = () => {
                <span className="hamburger__inner"></span>
             </span>
                 </div>
-                <nav >
-                    <ul className={navClassNames}>
-                        <li className='navigation__item'><Link to='/' className='link'>Strona główna</Link></li>
-                        <li className='navigation__item'><Link to='/leczenie' className='link'>Leczenie</Link></li>
-                        <li className='navigation__item'><Link to='/psychoterapia' className='link'>Psychoterapia</Link>
+                <nav>
+                    <ul className={navClassNames} onClick={() =>{
+                        setLinksOpened(!linksOpened)}} >
+                        <li className={linksClassNames} className='navigation__item'><Link to='/' className='link'  >Strona główna</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/leczenie' className='link'>Leczenie</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/psychoterapia' className='link'>Psychoterapia</Link>
                         </li>
-                        <li className='navigation__item'><Link to='/omnie' className='link'>O mnie</Link></li>
-                        <li className='navigation__item'><Link to='/kontakt' className='link'>Kontakt</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/omnie' className='link'>O mnie</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/kontakt' className='link'>Kontakt</Link></li>
                     </ul>
                 </nav>
             </div>
