@@ -2,7 +2,7 @@ import React from "react";
 import Header from './Header';
 import Footer from './Footer';
 import people from
-     "../../img/86eb8aa8-20a6-469e-852f-758160a351f0.jpg";
+     "../../img/beach-3226488_640.jpg";
 
 const Home = () => {
     return (
