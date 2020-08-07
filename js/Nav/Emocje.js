@@ -11,7 +11,7 @@ const Emotion = () => {
 
                     <li className='subsiteP'>kiedy odczuwasz strach, włącza Ci się ostrozność
                     </li>
-                    <li className='subsiteP'>smutek przynosi reflekcje
+                    <li className='subsiteP'>smutek przynosi refleksje
                     </li>
                     <li className='subsiteP'>wyrzuty sumienia zaszczepiają poczucie sprawiedliwości
                     </li>
@@ -20,8 +20,8 @@ const Emotion = () => {
                     <li className='subsiteP'>zazdrość ujawnia marzenia
                     </li>
 
-                Nie ma złych emocji. Bo każde z nich wnoszą coś innego, spełniają różne funkcje, są porzyteczne,
-                    wspołistnija i dopełniaja się. Dlatego warto je zrozumieć, zawrzeć z nimi rozejm
+                Nie ma złych emocji. Bo każde z nich wnoszą coś innego, spełniają różne funkcje, są pożyteczne,
+                    wspołistnieją i dopełniają się. Dlatego warto je zrozumieć, zawrzeć z nimi rozejm
                     i pracować nad ich równowagą.
             </p>
             <Footer/></div>

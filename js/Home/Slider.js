@@ -1,7 +1,7 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import img1 from
-        "../../img/beach-3226488_1280.jpg";
+        "../../img/poczatek_1280.jpg";
 
 import img2 from
         "../../img/droga_1280.jpg";
