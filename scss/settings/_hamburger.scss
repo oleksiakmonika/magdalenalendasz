@@ -73,7 +73,6 @@
 }
 
 .navigation {
- height: 260px;
   width: 100%;
   background-color: transparent;
   //box-shadow: 0px 3px 12px #00000029;
@@ -90,7 +89,7 @@
 }
 
 .navigation__item {
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   text-transform: uppercase;
   .link {
     text-decoration: none;
@@ -102,4 +101,7 @@
 .invisible{
  display: none;
 }
+//.nav{
+//  margin-bottom: 30px;
+//}
 // hamburger menu end

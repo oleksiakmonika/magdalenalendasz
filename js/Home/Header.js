@@ -12,6 +12,7 @@ const Header = () => {
         <div className='header'>
             <h1>Magdalena Lendasz</h1>
             <p className='occupation'>psycholog, psychoterapeuta</p>
+            <p className='quotation'>Gdy słucham co mówisz, słyszę kim jesteś</p>
             <div className='divDesktop'>
                 <ul className='nav'>
                     <li><Link to='/' className='link'>Strona główna</Link></li>
