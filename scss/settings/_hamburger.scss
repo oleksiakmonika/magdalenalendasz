@@ -6,7 +6,7 @@
   cursor: pointer;
   background: transparent;
   border: 0;
-  margin: 0 0 0 5%;
+  margin: 2% 0 0 5%;
   transition: transform .4s .2s ease-in-out;
 }
 
@@ -17,7 +17,7 @@
 
 .hamburger--active {
   padding: 5px;
-  margin: 0 0 0 5%;
+  margin: 2% 0 0 5%;
   //transform: translateX(70px);
   transition: transform .4s .2s ease-in-out;
 }
@@ -84,8 +84,10 @@
 }
 
 .navigation--active {
-  transform: translateX(70px);
+  transform: translateX(2px);
+  text-align: center;
   transition: transform .5s .2s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .navigation__item {

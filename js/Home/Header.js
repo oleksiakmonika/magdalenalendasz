@@ -13,13 +13,15 @@ const Header = () => {
             <h1>Magdalena Lendasz</h1>
             <p className='occupation'>psycholog, psychoterapeutka</p>
             <p className='quotation'>Gdy słucham co mówisz, słyszę kim jesteś</p>
+
             <div className='divDesktop'>
+                <div className='border'></div>
                 <ul className='nav'>
                     <li><Link to='/' className='link'>Strona główna</Link></li>
                     <li><Link to='/leczenie' className='link'>Leczenie</Link></li>
                     <li><Link to='/psychoterapia' className='link'>Psychoterapia</Link></li>
                     <li><Link to='/emocje' className='link'>Emocje</Link></li>
-                    <li><Link to='/bajka' className='link'>Bajka o smutku</Link></li>
+                    <li><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
                     <li><Link to='/omnie' className='link'>O mnie</Link></li>
                     <li><Link to='/kontakt' className='link'>Kontakt</Link></li>
                 </ul>
@@ -44,12 +46,14 @@ const Header = () => {
                         <li className={linksClassNames} className='navigation__item'><Link to='/psychoterapia' className='link'>Psychoterapia</Link>
                         </li>
                         <li className={linksClassNames} className='navigation__item'><Link to='/emocje' className='link' >Emocje</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/bajka' className='link'>Bajka o smutku</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
                         <li className={linksClassNames} className='navigation__item'><Link to='/omnie' className='link'>O mnie</Link></li>
                         <li className={linksClassNames} className='navigation__item'><Link to='/kontakt' className='link'>Kontakt</Link></li>
                     </ul>
+
                 </nav>
             </div>
+            <div className='border'></div>
         </div>
     )
 };
