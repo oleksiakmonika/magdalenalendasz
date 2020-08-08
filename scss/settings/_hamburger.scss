@@ -6,7 +6,7 @@
   cursor: pointer;
   background: transparent;
   border: 0;
-  margin: 2% 0 0 5%;
+  margin: 0 0 0 5%;
   transition: transform .4s .2s ease-in-out;
 }
 
@@ -16,8 +16,9 @@
 }
 
 .hamburger--active {
+  cursor: pointer;
   padding: 5px;
-  margin: 2% 0 0 5%;
+  margin: 0 0 0 5%;
   //transform: translateX(70px);
   transition: transform .4s .2s ease-in-out;
 }
