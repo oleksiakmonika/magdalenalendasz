@@ -19,13 +19,16 @@ const Slider = () => {
             cancelOnInteraction={false} // should stop playing on user interaction
             interval={6000}
         >
-            <div data-src={img1}/>
-            <div data-src={img2}/>
-            <div data-src={img3}/>
-            <div data-src={img4}/>
-            <div data-src={img5}/>
-            <div data-src={img6}/>
-            <div data-src={img7}/>
+            <div className='kartka' data-src={img1}> ipsum Lorem ipsum Lorem <p
+                className='tekst_na_obraze ipsum Lorem_dark'>Lorem ipsum Lorem ipsum </p></div>
+            <div className='kartka' data-src={img2}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
+            <div className='kartka' data-src={img3}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_white'></p></div>
+            <div className='kartka
+            _white' data-src={img4}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
+            <div className='kartka' data-src={img5}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_white'></p></div>
+            <div className='kartka' data-src={img6}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
+            <div className='kartka' data-src={img7}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p>
+            </div>
         </AutoplaySlider>
     );
 }

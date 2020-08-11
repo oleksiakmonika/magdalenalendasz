@@ -5,25 +5,25 @@ import Footer from "../Home/Footer";
 const Emotion = () => {
 
     return (
-        <div className='subsite'><Header/>
-            <h2>emocje</h2>
-            <p className='subsiteP'>Nie ma złych emocji:
+        <div className='subsite'><Header/> <div className='sub'>
+            <h2>Emocje</h2>
+            <p className='subsiteP space'>Nie ma złych emocji:
 
-                    <li className='subsiteP'>kiedy odczuwasz strach, włącza Ci się ostrozność
+                    <li className='subsiteP'>kiedy odczuwasz strach, włącza Ci się ostrożność
                     </li>
-                    <li className='subsiteP'>smutek przynosi refleksje
+                    <li className='subsiteP'>smutek przynosi refleksję
                     </li>
                     <li className='subsiteP'>wyrzuty sumienia zaszczepiają poczucie sprawiedliwości
                     </li>
                     <li className='subsiteP'>złość buduje granice
                     </li>
-                    <li className='subsiteP'>zazdrość ujawnia marzenia
+                    <li className='subsiteP space'>zazdrość ujawnia marzenia
                     </li>
 
-                Nie ma złych emocji. Bo każde z nich wnoszą coś innego, spełniają różne funkcje, są pożyteczne,
+                Nie ma złych emocji, każde z nich wnoszą coś innego, spełniają różne funkcje, są pożyteczne,
                     wspołistnieją i dopełniają się. Dlatego warto je zrozumieć, zawrzeć z nimi rozejm
                     i pracować nad ich równowagą.
-            </p>
+            </p></div>
             <Footer/></div>
 )
 };

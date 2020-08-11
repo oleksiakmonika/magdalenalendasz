@@ -2,13 +2,49 @@
 .divDesktop{
   display: none;
 }
+.border{
+    display: none;
+}
+.occupation{
+    margin-bottom: 0;
+}
+.right p{
+    text-align: center;
+}
+  .contact{
+    display: flex;
+    flex-direction: column;
+  }
+  .margin{
+    margin: 0;
+  }
 }
 @media (min-width: 840px){
   .divMobile{
     display: none;
   }
   .containerHome{
-   margin: 5% 10%;
+   margin: 5% 18%;
+  }
+  .occupation{
+    height: 50px;
+  }
+  .margin{
+    margin: 0 5% 0 15%
+  }
 
+}
+@media (min-width: 1200px){
+  .divMobile{
+    display: none;
+  }
+  .containerHome{
+    margin: 5% 25%;
+  }
+  .occupation{
+    height: 50px;
+  }
+  .margin{
+    margin: 0 2% 0 15%
   }
 }

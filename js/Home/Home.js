@@ -14,8 +14,9 @@ const Home = () => {
             {/*<h2 className='home'>Gdy slucham co mowisz, slysze kim jestes</h2> /!*<img className="photo" src={people}/>*!/*/}
             <Slider/>
         </div>
-
+            <p className='quotation'>Gdy słucham co mówisz, słyszę kim jesteś</p>
         <Footer/>
+
     </div>
     )
 }
