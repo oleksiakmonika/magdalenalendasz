@@ -9,6 +9,10 @@ import img4 from "../../img/ojciec z dzieciem_1280.jpg";
 import img5 from "../../img/przyjaciele w podrozy_1280.jpg";
 import img6 from "../../img/przyjaciolki_1280.jpg";
 import img7 from "../../img/radosne kobiety_1280.jpg";
+import img8 from "../../img/pokolenia.jpg";
+import img9 from "../../img/pokolenia2.jpg";
+import img10 from "../../img/para.jpg";
+import img11 from "../../img/dziwczynki.jpg";
 // import AwesomeSlider from 'react-awesome-slider';
 // import AwsSliderStyles from 'react-awesome-slider/src/styles.js';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -28,6 +32,11 @@ const Slider = () => {
             <div className='kartka' data-src={img5}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_white'></p></div>
             <div className='kartka' data-src={img6}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
             <div className='kartka' data-src={img7}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p>
+            </div>
+            <div className='kartka' data-src={img11}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
+            <div className='kartka' data-src={img9}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_white'></p></div>
+            <div className='kartka' data-src={img8}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p></div>
+            <div className='kartka' data-src={img10}>Lorem ipsum Lorem ipsum<p className='tekst_na_obrazek_dark'></p>
             </div>
         </AutoplaySlider>
     );
