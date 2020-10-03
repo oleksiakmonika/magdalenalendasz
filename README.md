@@ -1,6 +1,6 @@
 
 
-# Strona Magdaleny Lendasz
+# Strona Malgorzaty Prociewicz
 
 ## Wykorzystane technologie
 - React
