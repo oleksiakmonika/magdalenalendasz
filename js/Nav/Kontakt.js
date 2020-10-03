@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='subsite'>
             <Header/>
             <div className='sub'>
-                <h2 className='center'>Dane kontaktowe</h2>
+                <h2 className='center'>Kontakt</h2>
                 <div className='center'>
                     <h4 className='center'>tel.: 691 110 747 </h4>
                     <div className='center'>e-mail: mprociewicz@gmail.com</div>
