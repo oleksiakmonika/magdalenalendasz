@@ -10,3 +10,4 @@
 ## Adres strony na GitHub Pages: 
 https://oleksiakmonika.github.io/magdalenalendasz/dist/#/
 
+# malgorzataprociewicz
