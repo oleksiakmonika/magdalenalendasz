@@ -6,7 +6,7 @@
   cursor: pointer;
   background: transparent;
   border: 0;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 48%;
   transition: transform .4s .2s ease-in-out;
 }
 
@@ -18,7 +18,7 @@
 .hamburger--active {
   cursor: pointer;
   padding: 5px;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 48%;
   //transform: translateX(70px);
   transition: transform .4s .2s ease-in-out;
 }
@@ -41,7 +41,7 @@
    @include hamburger-line;
    //left: 0;
    //top: 70%;
-   tranform: translateY(-1%);
+   tranform: translateY(-10%);
    transition: background-color .4s .2s ease-in-out;
  }
 
@@ -81,7 +81,7 @@
   top: 200px;
   left: -600px;
   transition: transform 0.5s .2s ease-in-out;
-  transform: translateX(-270px);
+  transform: translateX(-600px);
 }
 
 .navigation--active {

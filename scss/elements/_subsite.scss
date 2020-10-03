@@ -1,35 +1,67 @@
-div .subsiteP{
-  margin: 1% 3%;
+div .subsiteP {
+  margin: 3% 0;
   text-align: justify;
   font-size: 18px;
   hyphens: auto;
   word-wrap: break-word;
 }
-h2{
+
+h2 {
   margin: 2% 3%;
   text-align: left;
 }
-.space{
+
+.space {
   margin-bottom: 15px;
 }
-.italic{
+
+.italic {
   font-style: italic;
 }
-.bold{
+
+.bold {
   font-weight: 700;
   margin: 0 0 0 3%;
 }
-.subsiteN{
+
+.subsiteN {
   margin: 0;
   font-size: 20px;
 }
+
 p a {
   color: $grey
 }
-.sub{
+
+.sub {
   margin: 0 5%;
 }
-.contact{
+
+.contact {
   display: flex;
-  margin-left: 2%;
+  justify-content: space-evenly;
+  margin: 3%;
+  align-items: center;
+}
+
+.invite {
+  width: 300px;
+  height: 220px
+}
+
+.center {
+  text-align: center;
+}
+
+.tekst {
+  position: absolute;
+  bottom: 0;
+  font-size: 22px;
+  color: $white;
+  font: $font-base;
+}
+
+.tekstDiv {
+  position: relative;
+  margin: 235px 0 0 0;
 }

@@ -4,13 +4,8 @@ import Home from './Home/Home';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import Contact from './Nav/Kontakt';
 import NotFound from "./Nav/NotFound";
-import Treatment from "./Nav/Leczenie";
-import Emotion from "./Nav/emocje";
-import Story from "./Nav/bajka";
 import AboutMe from "./Nav/OMnie";
-import Psychoteraphy from "./Nav/Psychoterapia";
-
-
+import Offer from "./Nav/Oferta";
 require('../scss/main.scss');
 
 function App() {
@@ -19,12 +14,9 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home}/>
-                    <Route path="/kontakt" component={Contact}/>
-                    <Route path="/leczenie" component={Treatment}/>
-                    <Route path="/emocje" component={Emotion}/>
-                    <Route path="/bajka" component={Story}/>
                     <Route path="/omnie" component={AboutMe}/>
-                    <Route path="/psychoterapia" component={Psychoteraphy}/>
+                    <Route path="/oferta" component={Offer}/>
+                    <Route path="/kontakt" component={Contact}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Router>

@@ -1,6 +1,6 @@
 .nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color:black
 }
 ul {
@@ -10,18 +10,18 @@ h1{
   font-size: 45px;
   margin: 30px 0 5px 0;
   text-align: center;
-  color:$darkgrey;
+  color:$blue;
   font-family: $font-esspecially;
 }
 .occupation {
   text-align: center;
-  color:$darkgrey;
+  color:$blue;
   margin: 0 0 5px 0;
   font-size: 16px;
 }
 .quotation{
   text-align: center;
-  color:$grey;
+  color:$blue;
   margin: 50px 0 25px 0;
   font-size: 22px;
   font-family: $font-esspecially;
@@ -30,7 +30,7 @@ h1{
 li{
   font-size: 25px;
   margin: 10px 1%;
-  color: $darkgrey
+  color: $blue
 }
 .link{
   text-decoration: none;
@@ -38,8 +38,8 @@ li{
   font-size: 20px;
 }
 .border{
-  border: 1px solid $white;
-  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #ffd1e7;
+  box-shadow: 0px 1px 3px #ffc6cd;
   margin: 2px 5%
 }
 .divDesktop{

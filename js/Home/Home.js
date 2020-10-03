@@ -1,22 +1,19 @@
 import React from "react";
 import Header from './Header';
 import Footer from './Footer';
-import Slider from './Slider';
-// import people from
-//      "../../img/beach-3226488_640.jpg";
+import people from
+     "../../img/para.jpeg";
 
 const Home = () => {
     return (
         <div id='home'>
         <Header/>
-
         <div className='containerHome'>
-            {/*<h2 className='home'>Gdy slucham co mowisz, slysze kim jestes</h2> /!*<img className="photo" src={people}/>*!/*/}
-            <Slider/>
+           <img className="photo" src={people}/>
         </div>
-            <p className='quotation'>Gdy słucham co mówisz, słyszę kim jesteś</p>
+            <p className='quotation'>"Czlowiek nigdy nie pozbędzie się tego, o czym milczy"</p>
+            <p className='quotation'> Karel Čapek</p>
         <Footer/>
-
     </div>
     )
 }

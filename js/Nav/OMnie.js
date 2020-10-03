@@ -1,25 +1,40 @@
 import React from 'react';
 import Header from '../Home/Header';
 import Footer from "../Home/Footer";
+import margaret from "../../img/malgosia_1.jpeg";
 
 const AboutMe = () => {
     return (
-        <div className='subsite'><Header/><div className='sub'><h2>O mnie</h2>
-            <div className='subsiteP space right'>Jestem psychologiem i certyfikowaną psychoterapeutką Polskiego Towarzystwa Psychoterapii
-                Psychodynamicznej  <a href='http://ptppd.pl/certyfikowani-psychoterapeuci-ptppd/' >(nr certyfikatu 133)</a>. Szkołę z psychoterapii skończyłam w <a href='https://kcp.com.pl/'>Krakowskim Centrum
-                    Psychodynamicznym</a>.</div>
+        <div className='subsite'><Header/>
+            <div className='sub'><h2 className='center1'>O mnie</h2>
+            <div className='aboutMe'>    <div >  <img id='margaret' src={margaret}/></div>
+<div>
 
-               <div className='subsiteP space right' > W swojej pracy przyjmuję psychodynamiczny model rozumienia leczenia. Zakłada on, że podczas rozmowy oraz
-                w oparciu o relację terapeutyczną istnieje możliwość zmiany i rozwiązania problemów z jakimi zgłasza się
-                Pacjent. Uwzględniam znaczenie nieświadomych, wewnętrznych procesów psychicznych, które z czasem stają
-                się coraz bardziej wyraźne i zaczynają wyjaśniać skąd biorą się zgłaszane trudności.</div>
-            <div className='subsiteP space right' >  Należę do <a href='https://ptppd.pl/'>Polskiego Towarzystwa Psychoterapii Psychodynamicznej</a>. Każdą swoją pracę poddaję stałemu doskonaleniu poprzez superwizje, zgodnie z wymaganiami Polskiego
-                Towarzystwa Psychologicznego.</div>
-                <div className='subsiteP space right' >   Współpracuję z <a href='https://odnowa.gdansk.pl/'>Ośrodkiem Psychoterapii i Rozwoju Osobistego ODNOWA </a>oraz lekarzami Małgorzatą Szeliga - tel. 537 222 266 oraz Piotrem Nowotka - tel. 609 394 600</div>
+                <div className='subsiteP space right'>Jestem dyplomowanym psychoterapeutą i członkiem zwyczajnym <a
+                    href='https://ptppd.pl/'>Polskiego Towarzystwa Psychoterapii Psychodynamicznej</a>.
 
+                Ukończyłam psychologię na Uniwersytecie Gdańskim i <a
+                    href='https://kcp.com.pl/'>Szkołę Psychoterapii Psychodynamicznej KCP</a> w Krakowie.
+                </div>
+                <div className='subsiteP space right'>Swoją edukację kontynuowałam na Gdańskim Uniwersytecie Medycznym,
+                    gdzie ukończyłam studia podyplomowe z zakresu psychologii klinicznej. Pracuję z młodzieżą i osobami
+                    dorosłymi od 2002 roku. Pomagam osobom cierpiącym z powodu depresji, zaburzeń lękowych, żałoby,
+                    przeżywającym kryzys lub pragnącym coś zmienić.
+                </div>
+                <div className='subsiteP space right'> Pracuję również z kobietami w ciąży i młodymi (stażem) mamami.
+                    Wspieram rodziców gniewnych nastolatków. Posiadam bogate doświadczenie zawodowe zdobyte w pracy w
+                    placówkach medycznych, środowiskowych, mundurowych i w gabinecie prywatnym.
+                </div>
+                <div className='subsiteP space right'> Stale podnoszę swoje kwalifikacje. Ukończyłam m.in.: Studium Socjoterapii i Treningu Interpersonalnego
+                    oraz Studium Przeciwdziałania Przemocy w Rodzinie. Pracę swoją poddaję regularnej superwizji.</div>
+                <div className='subsiteP space right'> Zapraszam
+                    do kontaktu telefonicznego  691 110 747.</div>
 
+</div>
+            </div>
 
-                </div><Footer/></div>
+            </div>
+            <Footer/></div>
     )
 };
 export default AboutMe;

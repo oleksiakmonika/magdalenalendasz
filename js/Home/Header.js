@@ -7,10 +7,10 @@ const Header = () => {
     const [linksOpened, setLinksOpened] = useState(false);
     const navClassNames = navOpened ? 'navigation--active' : 'navigation';
     const bClassNames = bOpened ? 'hamburger--active' : 'hamburger ';
-    const linksClassNames =linksOpened ? 'navigation' : 'navigation--active';
+    const linksClassNames = linksOpened ? 'navigation' : 'navigation--active';
     return (
         <div className='header'>
-            <h1>Magdalena Lendasz</h1>
+            <h1>Małgorzata Prociewicz</h1>
             <p className='occupation'>psycholog, psychoterapeutka</p>
 
             <div className='border'></div>
@@ -18,18 +18,15 @@ const Header = () => {
 
                 <ul className='nav'>
                     <li><Link to='/' className='link'>Strona główna</Link></li>
-                    <li><Link to='/leczenie' className='link'>Leczenie</Link></li>
-                    <li><Link to='/psychoterapia' className='link'>Psychoterapia</Link></li>
-                    <li><Link to='/emocje' className='link'>Emocje</Link></li>
-                    <li><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
                     <li><Link to='/omnie' className='link'>O mnie</Link></li>
+                    <li><Link to='/oferta' className='link'>Oferta</Link></li>
                     <li><Link to='/kontakt' className='link'>Kontakt</Link></li>
                 </ul>
             </div>
             <div className="divMobile">
                 <div
                     className={bClassNames}
-                    onClick={() =>{
+                    onClick={() => {
                         setNavOpened(!navOpened);
                         setBOpened(!bOpened)
                     }}
@@ -39,16 +36,18 @@ const Header = () => {
             </span>
                 </div>
                 <nav>
-                    <ul className={navClassNames} onClick={() =>{
-                        setLinksOpened(!linksOpened)}} >
-                        <li className={linksClassNames} className='navigation__item'><Link to='/' className='link'  >Strona główna</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/leczenie' className='link'>Leczenie</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/psychoterapia' className='link'>Psychoterapia</Link>
+                    <ul className={navClassNames} onClick={() => {
+                        setLinksOpened(!linksOpened)
+                    }}>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/' className='link'>Strona
+                            główna</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/omnie' className='link'>O
+                            mnie</Link></li>
+                        <li className={linksClassNames} className='navigation__item'><Link to='/oferta' className='link'>Oferta</Link></li>
+
+                        <li className={linksClassNames} className='navigation__item'><Link to='/kontakt'
+                                                                                           className='link'>Kontakt</Link>
                         </li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/emocje' className='link' >Emocje</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/omnie' className='link'>O mnie</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/kontakt' className='link'>Kontakt</Link></li>
                     </ul>
 
                 </nav>
