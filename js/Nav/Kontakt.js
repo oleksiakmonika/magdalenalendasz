@@ -46,10 +46,10 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div className='contact tekstDiv'>
-                <img className="invite marginPhoto tekst" src={invite}/>
-                <div className="tekst">Zapraszam</div>
-            </div>
+            {/*<div className='contact tekstDiv'>*/}
+            {/*    <img className="invite marginPhoto tekst" src={invite}/>*/}
+            {/*    <div className="tekst">Zapraszam</div>*/}
+            {/*</div>*/}
             <Footer/>
         </div>
     )
