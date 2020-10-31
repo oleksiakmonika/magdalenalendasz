@@ -1,15 +1,17 @@
 
 .kartka{
-  position: relative;font-family: $font-esspecially;
+  position: relative;
+  font-family: $font-esspecially;
   font-size: 40px;
 
 }
 .tekst_na_obrazek_dark {
   position: absolute;
-  top: -200px;
-  left: -200px;
+  top: -150px;
+  left: -250px;
   font-family: $font-esspecially;
-  font-size: 40px
+  font-size: 60%;
+width: 50vw;
 }
 
 .tekst_na_obrazek_white {
@@ -19,9 +21,9 @@
   text-align: center;
   color: $white;
   font-family: $font-esspecially;
-  font-size: 40px
+  font-size: 20px
 }
 img {
-  opacity : 0.90;
+  //opacity : 0.90;
   filter : alpha(opacity=90);
 }
