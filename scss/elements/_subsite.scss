@@ -1,5 +1,5 @@
 div .subsiteP {
-  margin: 10% 3%;
+  margin: 1% 5%;
   text-align: start;
   font-size: 18px;
   //hyphens: auto;
@@ -25,13 +25,15 @@ h2 {
 }
 
 //.subsiteN{
-//  margin: 0;
-//  font-size: 20px;
-//}
+//   margin: 0;
+//   font-size: 20px;
+// }
 p a {
   color: $grey
 }
-
+.sub1 {
+  margin: 0 5%;
+}
 .sub {
   margin: 0 5%;
 }
@@ -39,7 +41,4 @@ p a {
 .contact {
   display: flex;
   margin-left: 3%;
-}
-
-.map {
 }
