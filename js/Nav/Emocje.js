@@ -9,7 +9,7 @@ const Emotion = () => {
             <h2>Emocje</h2>
             <p className='subsiteP space'>Nie ma złych emocji:
 
-                    <li className='subsiteP'>kiedy odczuwasz strach, włącza Ci się ostrożność
+                    <li className='subsiteP'>strach włącza się ostrożność
                     </li>
                     <li className='subsiteP'>smutek przynosi refleksję
                     </li>

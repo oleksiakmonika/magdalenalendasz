@@ -7,10 +7,13 @@ div .subsiteP {
 }
 
 h2 {
-  margin: 2% 3%;
+  margin: 2% 5%;
   text-align: left;
 }
-
+h2 {
+  margin: 2% 5%;
+  text-align: left;
+}
 .space {
   margin-bottom: 15px;
 }
@@ -30,6 +33,10 @@ h2 {
 // }
 p a {
   color: $grey
+}
+.sub2 {
+  margin: 2% 3%;
+  text-align: left;
 }
 .sub1 {
   margin: 0 5%;

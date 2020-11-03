@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='subsite'>
             <Header/>
             <div className='sub1'>
-                <h2>Kontakt</h2>
+                <h2 className='sub2'>Kontakt</h2>
                 <div className='contact'>
                     <div>
 

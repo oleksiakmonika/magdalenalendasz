@@ -21,7 +21,7 @@ const Header = () => {
                     <li><Link to='/leczenie' className='link'>Leczenie</Link></li>
                     <li><Link to='/psychoterapia' className='link'>Psychoterapia</Link></li>
                     <li><Link to='/emocje' className='link'>Emocje</Link></li>
-                    <li><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
+
                     <li><Link to='/omnie' className='link'>O mnie</Link></li>
                     <li><Link to='/kontakt' className='link'>Kontakt</Link></li>
                 </ul>
@@ -46,7 +46,7 @@ const Header = () => {
                         <li className={linksClassNames} className='navigation__item'><Link to='/psychoterapia' className='link'>Psychoterapia</Link>
                         </li>
                         <li className={linksClassNames} className='navigation__item'><Link to='/emocje' className='link' >Emocje</Link></li>
-                        <li className={linksClassNames} className='navigation__item'><Link to='/bajka' className='link'>Lorem ipsum</Link></li>
+
                         <li className={linksClassNames} className='navigation__item'><Link to='/omnie' className='link'>O mnie</Link></li>
                         <li className={linksClassNames} className='navigation__item'><Link to='/kontakt' className='link'>Kontakt</Link></li>
                     </ul>

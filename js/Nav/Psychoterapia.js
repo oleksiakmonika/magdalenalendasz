@@ -4,7 +4,7 @@ import Footer from "../Home/Footer";
 
 const Psychoteraphy = () => {
     return (
-        <div className='subsite'><Header/>
+        <div className=''><Header/>
             <div className='sub'>
                 <h2>Psychoterapia</h2>
                 <p className='subsiteP space'>Każdą terapię zaczynam 3-4 konsultacjami. Wspólnie omawiamy zgłaszany problem,

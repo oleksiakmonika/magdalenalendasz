@@ -6,7 +6,6 @@ import Contact from './Nav/Kontakt';
 import NotFound from "./Nav/NotFound";
 import Treatment from "./Nav/Leczenie";
 import Emotion from "./Nav/emocje";
-import Story from "./Nav/bajka";
 import AboutMe from "./Nav/OMnie";
 import Psychoteraphy from "./Nav/Psychoterapia";
 
@@ -22,7 +21,6 @@ function App() {
                     <Route path="/kontakt" component={Contact}/>
                     <Route path="/leczenie" component={Treatment}/>
                     <Route path="/emocje" component={Emotion}/>
-                    <Route path="/bajka" component={Story}/>
                     <Route path="/omnie" component={AboutMe}/>
                     <Route path="/psychoterapia" component={Psychoteraphy}/>
                     <Route component={NotFound}/>
