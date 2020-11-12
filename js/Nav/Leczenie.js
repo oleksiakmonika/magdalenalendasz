@@ -8,7 +8,7 @@ const Treatment = () => {
         <div className='subsite'>
             <Header/>
             <div className='sub'>
-            <h2>Leczenie</h2>
+            <h2 className='subsiteH'>Leczenie</h2>
             <div className='subsiteP space'>Zajmuję się leczeniem zarówno chorób, jak i zaburzeń psychicznych. Często są to różnego rodzaju
                 nerwice, w tym stany lękowe, depresje/zaburzenia nastroju, zaburzenia osobowości,zaburzenia
                 psychosomatyczne (które przejawiają się objawami medycznymi, ale wyniki lekarskie nie wskazują na jakąś

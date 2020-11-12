@@ -18,8 +18,60 @@
   .margin{
     margin: 15px 0 0 0;
   }
+  div .subsiteP {
+    margin: 1% 5%;
+    text-align: start;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  div .subsiteK {
+    margin: 0 0 0 5%;
+    text-align: start;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  div .subsiteK1 {
+    margin: 1% 5% 0 5% ;
+    text-align: start;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  .subsiteH{
+    margin: 2% 5%;
+    text-align: start;
+  }
 }
 @media (min-width: 840px){
+  div .subsiteP {
+    margin: 1% 15%;
+    text-align: justify;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  div .subsiteK {
+    margin: 0 0 0 15%;
+    text-align: justify;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  div .subsiteK1 {
+    margin: 1% 15% 0 15% ;
+    text-align: justify;
+    font-size: 18px;
+    //hyphens: auto;
+    //word-wrap: break-word;
+  }
+  .subsiteH{
+    margin: 2% 15%;
+    text-align: start;
+  }
+
+
   .divMobile{
     display: none;
   }
@@ -47,4 +99,5 @@
   .margin{
     margin: 0 5% 0 30%
   }
+
 }

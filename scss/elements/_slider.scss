@@ -5,25 +5,30 @@
   font-size: 40px;
 
 }
-.tekst_na_obrazek_dark {
-  position: absolute;
-  top: -150px;
-  left: -250px;
-  font-family: $font-esspecially;
-  font-size: 60%;
-width: 50vw;
-}
-
 .tekst_na_obrazek_white {
   position: absolute;
-  bottom:-200px;
-  right: -200px;
-  text-align: center;
+  top:-100px;
+  left: -100px;
   color: $white;
+  text-align: center;
   font-family: $font-esspecially;
-  font-size: 20px
+  font-size: 80%;
+  width: 80vw
 }
+.tekst_na_obrazek_dark {
+  position: absolute;
+  top:100px;
+  //left: 100px;
+  color: black;
+  font-family: $font-esspecially;
+  font-size: 80%;
+  text-align: center;
+  width: 60vw
+
+}
+
+
 img {
   //opacity : 0.90;
-  filter : alpha(opacity=90);
+  //filter : alpha(opacity=90);
 }
